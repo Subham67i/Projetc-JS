@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function bodyload(){
+             window .document .images[0].src="../doctors1.png"
+            //   window .document .forms[0].elements[1].value="register";
+            //   window .document .forms[1].elements[1].value="login";
+            frmregister. btnregister.value = "register";
+            frmlogin.btnlogin.value = "login";
+          
+        }
+    </script>
+</head>
+<body onload="bodyload()">
+    <div>
+        <img width="100" height="100" border="2">
+    </div>
+    <!-- <div>
+        <form>
+            <h3>Register user </h3>
+            <input  type="text" placeholder="your userId">
+            <input type="button">
+        </form>
+    </div>
+    
+    </div>
+    <div>
+        <form>
+            <h3>User login</h3>
+            <input type="email" placeholder="your email">
+            <input type="button">
+
+        </form>
+    </div> -->
+    <div>
+        <form name="frmregister">
+            <h3>Register user </h3>
+
+            <input type="text" name="txtid" placeholder="your userId" >
+            <input type="button" name="btnregister">
+           
+        </form>
+
+    </div>
+    
+    </div>
+    <div>
+        <form name="frmlogin">
+            <h3>User login</h3>
+            <input type="email" placeholder="your email">
+            <input name="btnlogin" type="button">
+
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementById</title>
+    <script type="text/javascript">
+        function bodyload(){
+            document.getElementById("pic").src="../doctors1.png"
+            document.getElementById("btnregister").value = "register";
+            document.getElementById("btnlogin").value="login"
+        }
+
+    </script>
+</head>
+<body onload="bodyload()">
+    
+    <DIV>
+        <img width="100" id="pic" name="pic" height="100" border="2">
+    </DIV>
+    <div>
+        <form name="frmregister">
+            <h3>Register user </h3>
+           
+            <input type="text"  name="txtid" placeholder="your userId">
+            <input type="button" id="btnregister" name="btnregister">
+
+           
+           
+        </form>
+
+    </div>
+    
+    </div>
+    <div>
+        <form name="frmlogin">
+            <h3>User login</h3>
+            <input type="email" placeholder="your email">
+            <input name="btnlogin" id="btnlogin" type="button">
+
+        </form>
+    </div>
+    
+</body>
+</html>
