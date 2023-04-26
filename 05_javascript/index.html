@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function loadClick(){
+          pic =  document.createElement("img");
+          pic.src="./image/img1.jpg";
+          pic.width = "200";
+          pic.height = "200";
+          pic.border ="1";
+          document.getElementById("container").appendChild(pic);
+        }
+    </script>
+</head>
+<body>
+    <button onclick="loadClick()">load image</button>
+    <div id="container">
+
+
+    </div>
+    
+</body>
+</html>

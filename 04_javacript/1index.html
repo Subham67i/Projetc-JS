@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+
+        function Deleteclick (){
+           flag = confirm("confirm delete : recoard will be delete .\nAre you sure subham?");
+           if(flag==true){
+                //   document.getElementById("msg").innerHTML="<h2> record deleted..</h2>";
+                     document.getElementById("msg").outerHTML="<h2> record deleted..</h2>";
+           } 
+           else{
+            document.getElementById("msg").innerText="you canceled..";
+           }
+         }
+    </script>
+</head>
+<body>
+    <h2>click delet button </h2>
+    <button onclick="Deleteclick()">delete</button>
+    <p id="msg"></p>
+</body>
+</html>
